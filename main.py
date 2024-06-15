@@ -1,3 +1,6 @@
+#The code sets up a GUI application for downloading Spotify playlists using spotdl. It involves user input for the playlist URL and folder name, creates the specified folder if it doesn’t exist, and downloads the playlist using an external command. The application handles various scenarios such as folder existence and command execution errors gracefully with appropriate user feedback.
+
+
 import customtkinter as ctk
 from tkinter import messagebox
 import subprocess
